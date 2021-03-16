@@ -1,6 +1,0 @@
-$(function () {
-    $('#footer').load('/it-website/components/footer.html');
-    $('#header').load('/it-website/components/header.html', function () {
-        $('#slideoutmenu').load('/it-website/components/slideoutmenu.html');
-    });
-})
