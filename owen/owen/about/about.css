@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main > span {
+    width: 100%;
+}
+
+.imagerow {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #595959;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagerow > * {
+    height: fit-content;
+    flex-grow: 1;
+    width: 300px;
+    max-width: 500px;
+}
