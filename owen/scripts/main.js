@@ -19,7 +19,7 @@ headerXHR.onreadystatechange= function() {
     if (this.status!==200) return;
     document.getElementById('header').innerHTML= this.responseText;
     var slideoutXHR= new XMLHttpRequest();
-    slideoutXHR.open('GET', '/2021-websites/owen/components/slideOutMenu.html', true);
+    slideoutXHR.open('GET', '/2021-websites/owen/components/slideoutmenu.html', true);
     slideoutXHR.onreadystatechange= function() {
         if (this.readyState!==4) return;
         if (this.status!==200) return;
