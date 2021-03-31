@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(12.29deg, #444546 17.92%, #d7d6da 83.2%);
+    color: white;
+}
+
+
+.ribbon{
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ letter-spacing: 0.5;
+ grid-column-gap: 10px;
+ position: relative;
+ bottom: 40;
+}
+
+.ribbon a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.search{
+    position: relative;
+    bottom: 4;  
+}
+
+.search img{
+    position: relative;
+    top: 4;
+}
+
+
+    
+
