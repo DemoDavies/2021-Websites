@@ -1,0 +1,145 @@
+.header {
+    margin-top: 65px;
+    padding: 12px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #555;
+    color: #ffffff;
+}
+
+.content {
+    padding: 16px;
+}
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    overflow: hidden;
+    float: right;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    padding: 0px;
+    float: right;
+    text-align: center;
+    vertical-align: top;
+}
+
+.navbar a{
+    float: right;
+    margin: 0;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 27px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: powderblue;
+    color: rgb(0, 0, 0);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+body {
+    background-color: rgba(29, 29, 29, 0.945);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+p2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+li {
+    display: inline;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 5px solid powderblue;
+    float: right;
+    transition: border 0.5s ease;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+div.gallery:hover {
+    border: 10px solid powderblue;
+}
+
+div.gallery img {
+    width: 180px;
+    flex-grow: 2;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+main {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.paragraph {
+    width: 250px;
+    flex-grow: 1;
+}
+
+.header {
+    padding: 5px;
+}
