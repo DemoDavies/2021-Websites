@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right bottom,#C5D0D9,#343681);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.sidenavbar > div > nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideNavItem {
+    background-color: rgb(105, 105, 105);
+    border-bottom: 3px blue;
+    color: white;
+    padding: 5px;
+}
+
+.sidenavbar {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100px;
+    background-image: linear-gradient(to bottom-right,#C5D0D9, #343681);
+    ;
+    
+}
+
+.wrapper > :nth-child(2) {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.topbar{
+    background-image: linear-gradient(to top bottom,#C5D0D9, #343681);
+    text-align: center;
+    font-size: 50px;
+    height: 120px;
+}
+
+.sidenavbar > img {
+    width: 100%;
+}
+
+
+main {
+    min-height: calc(100vh - 50px);
+    background-image: linear-gradient(to right bottom,#C5D0D9, #343681);
+    
+}
+
+main img{
+    overflow: hidden;
+    padding: 5px;
+    height: 300px;
+    width: auto;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.no img{
+    overflow: hidden;
+    padding: 5px;
+    height: 80px;
+    width: auto;
+}
+
+.home {
+    overflow: hidden;
+    height: 600px;
+    width: auto;
+}
