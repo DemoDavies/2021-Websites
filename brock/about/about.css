@@ -1,0 +1,23 @@
+.mainheader{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;  
+    text-decoration: underline;
+}
+.paragraph{
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center;
+    }
+.found{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+}
