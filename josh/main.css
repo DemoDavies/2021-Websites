@@ -1,0 +1,91 @@
+* {
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(340.0deg, #0DD4E2 32.92%, #3538db 67.08%);
+    color: white;
+    padding: 5px;
+    display:flex;
+    align-items: center;  
+    place-items: space;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 35px; 
+    padding-left: 10px;
+}
+
+.topnav {
+    margin-right: 5px;
+    padding:0;
+}
+
+.topnav > a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.topnav > a {
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+    padding:1px 7px;
+    color: #033C40;
+    font-size: 22px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-size: 18px;
+}
+
+main {
+    min-height: calc(100vh - 56px);
+    background-image: linear-gradient(0.0deg, #0DD4E2 17.92%, #c07dff 82.08%);
+}
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(160.0deg, #3538db 42.92%, #c07dff 57.08%);
+    color: white;
+    padding: 10px;
+    display:flex;
+    align-items: center;  
+    place-items: space;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer > div {
+    margin: 0;
+    padding: 10px; 
+}
+
+footer > span {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomnav {
+    margin-right: 5px;
+    padding:0;
+}
+
+.bottomnav > a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.bottomnav > a {
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+    padding:1px 7px;
+    color: #033C40;
+    font-size: 22px;
+}

@@ -1,0 +1,104 @@
+main {
+    margin: 0;
+    padding: 10px;
+}
+
+.mainheader {
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.text > .quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+.phone > .header_one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.email > .header_two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.opening_hours > .header_three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.opening_hours {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.address > .header_four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.map {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
